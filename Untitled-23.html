@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anabel Resin Creations</title>
+
+    <link rel="stylesheet" href="menu-lateral.css">
+</head>
+
+<body>
+
+    <!-- MENU LATERAL -->
+    <aside class="menu-lateral">
+
+        <h2>ANABEL RESIN CREATIONS</h2>
+
+        <button onclick="mostrarSeccion('inicio')">
+            Inicio
+        </button>
+
+        <button onclick="mostrarSeccion('servicios')">
+            Horarios y Servicios
+        </button>
+
+        <button onclick="mostrarSeccion('contactos')">
+            Contactos
+        </button>
+
+    </aside>
+
+    <!-- CONTENIDO -->
+    <main class="contenido">
+
+        <!-- INICIO -->
+        <section id="inicio" class="seccion activa">
+
+            <h1>Bienvenidos a Anabel Resin Creations</h1>
+
+            <hr>
+
+            <p>
+                Arte, color y resina para transformar tus espacios.
+            </p>
+
+            <p>
+                Creamos productos artesanales de resina para
+                decorar tu hogar con diseños únicos y personalizados.
+            </p>
+
+        </section>
+
+        <!-- SERVICIOS -->
+        <section id="servicios" class="seccion">
+
+            <h1>Horarios y Servicios</h1>
+
+            <hr>
+
+            <h2>Nuestros servicios</h2>
+
+            <p>
+                Elaboramos productos artesanales de resina
+                para decorar tus espacios.
+            </p>
+
+            <ul>
+                <li>Cuadros decorativos de resina.</li>
+                <li>Mesas resinadas.</li>
+                <li>Bandejas decorativas.</li>
+                <li>Relojes de resina.</li>
+                <li>Llaveros personalizados.</li>
+                <li>Diseños personalizados según tu estilo.</li>
+            </ul>
+
+            <h2>Horarios de atención</h2>
+
+            <p>Lunes a viernes: 9:00 a. m. - 6:00 p. m.</p>
+            <p>Sábados: 9:00 a. m. - 2:00 p. m.</p>
+            <p>Domingos: Cerrado.</p>
+            <p>Feriados: Con reservación previa.</p>
+
+        </section>
+
+        <!-- CONTACTOS -->
+        <section id="contactos" class="seccion">
+
+            <h1>Contactos</h1>
+
+            <hr>
+
+            <h2>Anabel Resin Creations</h2>
+
+            <p>
+                ¿Deseas realizar un pedido personalizado?
+                Estamos disponibles para atender tus consultas.
+            </p>
+
+            <ul>
+                <li>Información sobre nuestros productos.</li>
+                <li>Pedidos de cuadros y mesas resinadas.</li>
+                <li>Solicitudes de diseños personalizados.</li>
+                <li>Consultas sobre precios y entregas.</li>
+            </ul>
+
+            <h2>Información del negocio</h2>
+
+            <p>Nombre: Anabel Resin Creations</p>
+            <p>Ubicación: Santiago, República Dominicana.</p>
+
+            <p>
+                Puedes agregar aquí tu número de teléfono,
+                WhatsApp o correo electrónico.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        function mostrarSeccion(id) {
+
+            let secciones = document.querySelectorAll(".seccion");
+
+            secciones.forEach(function(seccion) {
+                seccion.classList.remove("activa");
+            });
+
+            document.getElementById(id).classList.add("activa");
+        }
+    </script>
+
+</body>
+</html>

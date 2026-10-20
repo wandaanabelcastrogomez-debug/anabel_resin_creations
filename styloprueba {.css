@@ -1,0 +1,51 @@
+body {
+    background-color: #f8d7e8;
+    font-family: Arial;
+}
+
+h1 {
+    color: #8e2a6b;
+    font-size: 36px;
+}
+
+h2 {
+    color: #8e2a6b;
+}
+
+h3 {
+    color: #555555;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: white;
+    padding: 15px;
+}
+
+td img,
+th img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+
+p {
+    font-size: 18px;
+}
+
+.botom3 {
+    background-color: #8e2a6b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botom3:hover {
+    background-color: #d46ba8;
+}
