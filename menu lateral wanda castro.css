@@ -1,0 +1,74 @@
+
+/* DISEÑO GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5ff;
+}
+
+/* CONTENEDOR DE LA PÁGINA */
+.contenedor {
+    display: flex;
+    min-height: 500px;
+}
+
+/* MENÚ LATERAL */
+.menu-lateral {
+    width: 220px;
+    background-color: #d9c7f5;
+    padding: 20px;
+}
+
+.menu-lateral h3 {
+    text-align: center;
+    color: #32106e;
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+
+/* BOTONES DEL MENÚ */
+.menu-lateral a {
+    display: block;
+    background-color: white;
+    color: #32106e;
+    text-decoration: none;
+    padding: 14px 10px;
+    margin-bottom: 12px;
+    border: 1px solid #b69bdd;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* EFECTO AL PASAR EL RATÓN */
+.menu-lateral a:hover {
+    background-color: #6a35a8;
+    color: white;
+}
+
+/* CONTENIDO DE LA PÁGINA */
+.contenido {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+}
+
+.contenido h2 {
+    color: #2412b5;
+}
+
+/* ADAPTACIÓN A CELULARES */
+@media (max-width: 600px) {
+    .contenedor {
+        flex-direction: column;
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+}
