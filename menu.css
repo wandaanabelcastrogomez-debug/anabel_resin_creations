@@ -1,0 +1,268 @@
+Hoja menu .producto {
+    width: 250px;
+    height: 200px;
+}
+img {
+    border: 2px solid #087ff5;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.producto img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border: 1px solid #dce4ec;
+    border-radius: 10px;
+    padding: 5px;
+    background: white;
+}
+
+body {
+    background-color: lightblue;
+}
+/* Botón Agregar al carrito */
+.botom3 {
+    width: 100%;
+    background-color: #087ff5;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Efecto al pasar el mouse */
+.botom3:hover {
+    background-color: #0567c9;
+    transform: translateY(-2px);
+}
+
+
+/* Caja del Login */ 
+.login { width: 350px; padding: 30px;
+ background-color: white; 
+ border: 2px solid #2563eb; 
+ border-radius: 15px; 
+ box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); } 
+ 
+ /* Título */ 
+ .login h2 
+ 
+ {
+color: #2563eb; 
+ font-size: 28px; 
+ margin-bottom:  25px; 
+ }
+ /* Espacio entre los campos */ 
+ .inputBox 
+ { 
+ margin-bottom: 20px; 
+ } 
+ /* Campos de usuario y contraseña */ 
+ .inputBox input 
+ { 
+ width: 100%; 
+ padding: 12px; 
+ box-sizing: border-box; 
+ border: 2px solid #cccccc; 
+ border-radius: 8px; 
+ font-size: 16px; outline: 
+ 
+ none;
+ } /* Cuando seleccionamos el campo */ 
+ .inputBox input:focus
+ { border-color: #2563eb; 
+ box-shadow: 0 0 5px rgba(37, 99, 235, 0.4); 
+ } /* Botones */ 
+ .group { 
+ margin-top: 20px; 
+ } 
+ .botomlogin 
+ {
+display: block; width: 350px; 
+ padding: 12px;
+ margin: 10px auto; 
+ background-color: #2563eb; 
+ color: white; border: 
+ none; border-radius: 8px; font-size: 15px; 
+ font-weight: bold; cursor: pointer; 
+ } /* Efecto al pasar el mouse */ 
+ .botomlogin:hover 
+ { background-color: #1d4ed8; 
+ transform: scale(1.03); 
+ }
+ /* Quitar subrayado de los enlaces */ 
+ .group a 
+ { 
+ text-decoration: none; 
+ }
+ Hoja de pago 
+/* Fondo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(135deg, #dbeafe, #93c5fd);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+
+/* Contenedor del formulario */
+.pagoT {
+    width: 420px;
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    border: 2px solid #2563eb;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.20);
+}
+
+
+/* Título */
+.pagoT h2 {
+    text-align: center;
+
+    color: #1d4ed8;
+
+    margin-bottom: 25px;
+
+    font-size: 28px;
+}
+
+
+/* Cada campo */
+.inputBox {
+    margin-bottom: 18px;
+	
+}
+
+
+/* Texto de los campos */
+.inputBox label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color: #333;
+
+    font-weight: bold;
+}
+
+
+/* Cajas de texto */
+.inputBox input,
+.inputBox select {
+    width: 100%;
+
+    padding: 12px;
+
+    box-sizing: border-box;
+
+    border: 2px solid #cbd5e1;
+
+    border-radius: 8px;
+
+    outline: none;
+
+    font-size: 15px;
+
+    transition: 0.3s;
+}
+
+
+/* Efecto cuando seleccionamos un campo */
+.inputBox input:focus,
+.inputBox select:focus {
+    border-color: #2563eb;
+
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.4);
+}
+
+
+/* Texto del placeholder */
+.inputBox input::placeholder {
+    color: #999;
+}
+
+
+/* Contenedor de botones */
+.botomlogin {
+    text-align: center;
+
+    margin-top: 25px;
+}
+
+
+/* Botones */
+.botomlogin {
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    margin: 5px;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+/* Efecto al pasar el mouse */
+.mi-boton1:hover {
+    background: #1e40af;
+
+    transform: scale(1.05);
+}
+
+
+/* Enlace de los botones */
+.botones a {
+    text-decoration: none;
+}
+
+/* Botones */
+.mi-boton1 {
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    margin: 5px;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
