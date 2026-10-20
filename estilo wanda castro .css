@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fce4ec, #ead7f7, #d8c4f2);
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+.registro {
+    background-color: white;
+    width: 430px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid #9c27b0;
+    box-shadow: 0px 8px 20px #b39ddb;
+}
+
+.registro h1 {
+    color: #7b1fa2;
+}
+
+.registro h2 {
+    color: #c2185b;
+}
+
+label {
+    color: #6a1b9a;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 90%;
+    padding: 12px;
+    margin-top: 7px;
+    border: 2px solid #ce93d8;
+    border-radius: 10px;
+    background-color: #faf5ff;
+}
+
+input:focus,
+select:focus {
+    border-color: #9c27b0;
+    outline: none;
+    box-shadow: 0px 0px 8px #ce93d8;
+}
+
+.mi-boton1,
+.mi-boton2 {
+    color: white;
+    border: none;
+    padding: 13px 30px;
+    margin: 8px;
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mi-boton1 {
+    background: linear-gradient(135deg, #7b1fa2, #ab47bc);
+}
+
+.mi-boton2 {
+    background: linear-gradient(135deg, #c2185b, #ec407a);
+}
+
+.mi-boton1:hover,
+.mi-boton2:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,45 @@
+
+body {
+    background-color: #20cfd0;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+/* Botones del menú */
+.boton3 {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+/* Botón Login */
+.boton1 {
+    background-color: #ff69b4;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 10px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+/* Tamaño de las imágenes */
+img {
+    width: 220px;
+    height: 220px;
+}
+
