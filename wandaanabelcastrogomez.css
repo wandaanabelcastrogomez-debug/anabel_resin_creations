@@ -1,0 +1,197 @@
+
+/* DISEÑO GENERAL */
+
+body {
+    background: linear-gradient(135deg, #fce4ec, #ead7f7, #d8c4f2);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+/* TITULO */
+
+h1 {
+    color: #6a1b9a;
+    font-size: 42px;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 6px #999999;
+}
+
+h2 {
+    color: #ad1457;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+/* LINEAS */
+
+hr {
+    width: 85%;
+    border: 0;
+    border-top: 3px solid #8e24aa;
+    margin: 25px auto;
+}
+
+
+/* ========================= */
+/* BOTONES DEL MENU */
+/* ========================= */
+
+.boton3 {
+    background: linear-gradient(135deg, #8e24aa, #d81b60);
+    color: white;
+
+    border: 2px solid white;
+    padding: 17px 28px;
+
+    margin: 10px;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    border-radius: 15px;
+
+    cursor: pointer;
+
+    box-shadow: 0 6px 12px #777777;
+
+    transition: all 0.3s ease;
+}
+
+
+/* CUANDO PASAS EL MOUSE */
+
+.boton3:hover {
+    background: linear-gradient(135deg, #d81b60, #8e24aa);
+
+    transform: translateY(-5px) scale(1.05);
+
+    box-shadow: 0 10px 20px #555555;
+}
+
+
+/* CUANDO PRESIONAS */
+
+.boton3:active {
+    transform: translateY(2px) scale(0.97);
+
+    box-shadow: 0 3px 6px #555555;
+}
+
+
+/* ========================= */
+/* BOTON LOGIN */
+/* ========================= */
+
+.boton1 {
+    background: linear-gradient(135deg, #4a148c, #7b1fa2);
+
+    color: white;
+
+    border: 3px solid white;
+
+    padding: 17px 40px;
+
+    margin: 10px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    box-shadow: 0 7px 15px #666666;
+
+    transition: all 0.3s ease;
+}
+
+
+/* LOGIN AL PASAR EL MOUSE */
+
+.boton1:hover {
+    background: linear-gradient(135deg, #ec407a, #8e24aa);
+
+    transform: translateY(-6px) scale(1.08);
+
+    box-shadow: 0 12px 22px #555555;
+}
+
+
+/* LOGIN AL PRESIONAR */
+
+.boton1:active {
+    transform: translateY(2px) scale(0.96);
+
+    box-shadow: 0 3px 7px #555555;
+}
+
+
+/* ========================= */
+/* IMAGENES */
+/* ========================= */
+
+img {
+    width: 220px;
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 18px;
+
+    border: 4px solid white;
+
+    box-shadow: 0 6px 15px #777777;
+
+    transition: 0.3s;
+}
+
+
+/* EFECTO DE LAS IMAGENES */
+
+img:hover {
+    transform: scale(1.07);
+
+    box-shadow: 0 10px 20px #555555;
+}
+
+
+/* ========================= */
+/* TABLAS */
+/* ========================= */
+
+table {
+    background-color: white;
+
+    border-collapse: collapse;
+
+    box-shadow: 0 6px 15px #888888;
+}
+
+td {
+    padding: 15px;
+}
+
+
+/* ========================= */
+/* CAMPOS DEL LOGIN */
+/* ========================= */
+
+input {
+    padding: 12px;
+
+    border: 2px solid #8e24aa;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid #d81b60;
+
+    box-shadow: 0 0 8px #d81b60;
+}
+

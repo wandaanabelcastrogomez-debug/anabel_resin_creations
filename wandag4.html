@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Pago - Anabel Resin Creations</title>
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f0ff;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+.pago {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #d8b4fe;
+    box-shadow: 0px 5px 15px #cccccc;
+}
+
+h1 {
+    color: #7b2cbf;
+}
+
+h2 {
+    color: #7b2cbf;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.inputbox {
+    margin-bottom: 18px;
+}
+
+.inputbox label {
+    display: block;
+    color: #5a189a;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.inputbox input {
+    width: 90%;
+    padding: 11px;
+    border: 2px solid #c77dff;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.inputbox input:focus {
+    border-color: #7b2cbf;
+    outline: none;
+}
+
+select {
+    width: 90%;
+    padding: 11px;
+    border: 2px solid #c77dff;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+select:focus {
+    border-color: #7b2cbf;
+    outline: none;
+}
+
+label {
+    color: #5a189a;
+    font-weight: bold;
+}
+
+.mi-boton1 {
+    background-color: #7b2cbf;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.mi-boton1:hover {
+    background-color: #5a189a;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<center>
+
+<h1>ANABEL RESIN CREATIONS</h1>
+
+<div class="pago">
+
+<h2>Datos de Pago</h2>
+
+<div class="inputbox">
+<label>Nombre</label>
+<input type="text" placeholder="Nombre">
+</div>
+
+<div class="inputbox">
+<label>Apellido</label>
+<input type="text" placeholder="Apellido">
+</div>
+
+<div class="inputbox">
+<label>Correo</label>
+<input type="text" placeholder="Alguien@email.com">
+</div>
+
+<div class="inputbox">
+<label>Dirección</label>
+<input type="text" placeholder="Dirección">
+</div>
+
+<div class="inputbox">
+<label>Número de Teléfono</label>
+<input type="text" placeholder="809 000 000">
+</div>
+
+<div class="inputbox">
+<label>PIN de tarjeta</label>
+<input type="password" placeholder="PIN">
+</div>
+
+<div class="inputbox">
+
+<label for="banco">Elija el Banco</label>
+
+<select name="banco" id="banco">
+
+<option value="">Elija la institución bancaria</option>
+<option value="BHD">BHD</option>
+<option value="Banreservas">Banreservas</option>
+<option value="Banco Caribe">Banco Caribe</option>
+<option value="Popular">Popular</option>
+<option value="Coopnama">Coopnama</option>
+<option value="Banco Ademis">Banco Ademis</option>
+
+</select>
+
+</div>
+
+<div class="inputbox">
+
+<label for="pago">Tipo de pago</label>
+
+<select name="pago" id="pago">
+
+<option value="">Elija su tipo de pago</option>
+<option value="Transaccion">Transacción</option>
+<option value="Puntos">Puntos</option>
+<option value="Tarjeta promocional">Tarjeta promocional</option>
+
+</select>
+
+</div>
+
+<p>
+
+<a href="login.html">
+<button class="mi-boton1">Login</button>
+</a>
+
+<a href="catalogo.html">
+<button class="mi-boton1">Entrar</button>
+</a>
+
+</p>
+
+</div>
+
+</center>
+
+</body>
+
+</html>
