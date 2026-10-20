@@ -1,0 +1,79 @@
+body {
+    background-color: #f8d7e8;
+    font-family: Arial;
+}
+
+h1 {
+    color: #8e2a6b;
+    font-size: 36px;
+}
+
+h2 {
+    color: #8e2a6b;
+}
+
+h3 {
+    color: #555555;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* MENU */
+
+.tabla-menu {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-menu td {
+    text-align: center;
+    padding: 15px;
+}
+
+/* CATALOGO */
+
+.tabla-catalogo {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-catalogo th {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* TAMAÑO DE LAS IMAGENES */
+
+.tabla-menu img {
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+}
+
+.tabla-catalogo img {
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+
+}
+
+/* BOTONES */
+
+.botom3 {
+    background-color: #8e2a6b;
+    color: white;
+    border: 2px solid #6b1d50;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* EFECTO DEL BOTON */
+
+.botom3:hover {
+    background-color: #d46ba8;
+}

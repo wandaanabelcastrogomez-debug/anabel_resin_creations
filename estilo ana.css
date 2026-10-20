@@ -1,0 +1,42 @@
+
+.login {
+    background-color: white;
+    width: 350px;
+    padding: 30px;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.login h2 {
+    color: #333333;
+    font-size: 30px;
+}
+
+.inputbox {
+    margin: 15px;
+}
+
+.inputbox input {
+    width: 80%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.mi-boton1 {
+    background-color: #ff69b4;
+    color: white;
+    font-size: 17px;
+    padding: 12px 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.group a {
+    color: #000000;
+    font-size: 16px;
+}
+

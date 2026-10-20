@@ -1,0 +1,70 @@
+/* LOGIN ANABEL RESIN CREATIONS */
+
+.login {
+    width: 350px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border: 3px solid #b39ddb;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(100, 70, 150, 0.2);
+}
+
+.login h1 {
+    color: #7e57c2;
+    font-size: 28px;
+}
+
+.login h2 {
+    color: #6a1b9a;
+    margin-bottom: 25px;
+}
+
+.inputBox {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.inputBox label {
+    display: block;
+    color: #6a1b9a;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #b39ddb;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.inputBox input:focus {
+    border-color: #7e57c2;
+    outline: none;
+}
+
+.botomlogin {
+    background-color: #7e57c2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.botomlogin:hover {
+    background-color: #6a1b9a;
+}
+
+.botomlogin.secundario {
+    background-color: #b39ddb;
+}
+
+.botomlogin.secundario:hover {
+    background-color: #7e57c2;
+}
