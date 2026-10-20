@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Formulario de Pago - Anabel Resin Creations</title>
+
+    <link rel="stylesheet" href="estilo wanda castro .css">
+
+</head>
+
+<body>
+
+<center>
+
+<div class="registro">
+
+    <h1>ANABEL RESIN CREATIONS</h1>
+
+    <h2>Formulario de Pago</h2>
+
+<p id="total-pagar">Total a pagar: RD$0</p>
+
+<script>
+    const total = Number(localStorage.getItem("totalCompra"));
+
+    document.getElementById("total-pagar").textContent =
+        "Total a pagar: RD$" +
+        total.toLocaleString("es-DO");
+</script>
+
+    <div class="inputBox">
+
+        <p>
+            <label>Nombre</label><br>
+            <input type="text" placeholder="Nombre">
+        </p>
+
+        <p>
+            <label>Apellido</label><br>
+            <input type="text" placeholder="Apellido">
+        </p>
+
+        <p>
+            <label>Correo</label><br>
+            <input type="email" placeholder="Alguien@email.com">
+        </p>
+
+        <p>
+            <label>Número</label><br>
+            <input type="text" placeholder="809 XXX XXXX">
+        </p>
+
+        <p>
+            <label>Contraseña</label><br>
+            <input type="password" placeholder="Password">
+        </p>
+
+        <p>
+            <label>Recordar contraseña</label><br>
+            <input type="password" placeholder="Password">
+        </p>
+
+        <p>
+            <label for="Sexo">Elija el sexo</label><br>
+
+            <select name="Sexo" id="Sexo">
+
+                <option value="">Elija el sexo</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="No decirlo">Prefiero no decirlo</option>
+
+            </select>
+        </p>
+
+        <p>
+            <label for="Edad">Elija la edad</label><br>
+
+            <select name="Edad" id="Edad">
+
+                <option value="">Elija la edad</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+
+            </select>
+        </p>
+
+        <p>
+            <label>Número de tarjeta</label><br>
+            <input type="text" placeholder="XXXX XXXX XXXX XXXX">
+        </p>
+
+        <p>
+            <label>Fecha de vencimiento</label><br>
+            <input type="text" placeholder="MM/AA">
+        </p>
+
+        <p>
+            <label>CVV</label><br>
+            <input type="password" placeholder="CVV">
+        </p>
+
+        <br>
+
+        <a href="Menu.html">
+            <button type="button" class="mi-boton1">
+                Pagar
+            </button>
+        </a>
+
+        <a href="Login.html">
+            <button type="button" class="mi-boton2">
+                Usuario
+            </button>
+        </a>
+
+
+
+    </div>
+
+</div>
+
+</center>
+
+</body>
+
+</html>
+
