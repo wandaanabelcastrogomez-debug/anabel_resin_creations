@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5ff;
+    color: #333;
+}
+
+/* MENU LATERAL */
+.menu-lateral {
+    width: 260px;
+    height: 100vh;
+    background-color: #6a1b9a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 25px 15px;
+}
+
+.menu-lateral h2 {
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.menu-lateral button {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: #8e24aa;
+    color: white;
+    padding: 15px 10px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-lateral button:hover {
+    background-color: #e1bee7;
+    color: #4a148c;
+    transform: translateX(4px);
+}
+
+/* CONTENIDO */
+.contenido {
+    margin-left: 260px;
+    padding: 30px;
+}
+
+/* OCULTAR TODAS LAS SECCIONES */
+.seccion {
+    display: none;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+}
+
+/* MOSTRAR SOLO LA SECCION SELECCIONADA */
+.seccion.activa {
+    display: block;
+}
+
+.contenido h1 {
+    color: #6a1b9a;
+    margin-bottom: 20px;
+}
+
+.contenido h2 {
+    color: #8e24aa;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.contenido p {
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.contenido ul {
+    margin-left: 25px;
+    line-height: 2;
+}
+
+hr {
+    border: 1px solid #e1bee7;
+    margin-bottom: 20px;
+}
+
+/* CELULARES */
+@media (max-width: 700px) {
+    .menu-lateral {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .contenido {
+        margin-left: 0;
+        padding: 15px;
+    }
+}
