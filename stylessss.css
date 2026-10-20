@@ -1,0 +1,42 @@
+
+body {
+    background-color: #20cfd0;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 35px;
+}
+
+h2 {
+    color: #333333;
+}
+
+h3 {
+    color: #333333;
+}
+
+/* Tamaño de las 20 imágenes */
+table img {
+    width: 220px;
+    height: 220px;
+}
+
+/* Espacio de las celdas */
+th {
+    padding: 15px;
+}
+
+/* Botones */
+.botom3 {
+    background-color: #ff69b4;
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+

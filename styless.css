@@ -1,0 +1,51 @@
+
+body {
+    background-color: #20cfd0;
+    font-family: Arial;
+}
+
+.login {
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.login h2 {
+    color: #333333;
+    font-size: 30px;
+}
+
+.login label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.login input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.login select {
+    width: 85%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.mi-boton1 {
+    background-color: #ff69b4;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+}

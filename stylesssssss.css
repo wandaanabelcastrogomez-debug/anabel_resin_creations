@@ -1,0 +1,51 @@
+
+body {
+    background-color: #f8f5ff;
+    font-family: Arial;
+}
+
+h1 {
+    color: #7b2cbf;
+    font-size: 35px;
+}
+
+h3 {
+    color: #333333;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    padding: 15px;
+}
+
+/* Tamaño de las 4 imágenes */
+td img {
+    width: 300px;
+    height: 250px;
+}
+
+/* Botón catálogo */
+.boton3 {
+    background-color: #7b2cbf;
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+/* Botón login */
+.boton1 {
+    background-color: #ff69b4;
+    color: white;
+    font-size: 18px;
+    padding: 12px 30px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+

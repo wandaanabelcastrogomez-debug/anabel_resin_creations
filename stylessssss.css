@@ -1,0 +1,29 @@
+
+body {
+    background-color: #20cfd0;
+    font-family: Arial;
+}
+
+ul {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+li {
+    margin: 10px;
+    font-size: 17px;
+}
+
+.mi-boton1 {
+    background-color: #ff69b4;
+    color: white;
+    font-size: 17px;
+    padding: 12px 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
