@@ -3,13 +3,12 @@
 <html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Formulario de Pago - Anabel Resin Creations</title>
 
-    <link rel="stylesheet" href="estilo wanda castro .css">
-
+    <link rel="stylesheet" href="estilo wanda castro.css">
 </head>
 
 <body>
@@ -19,69 +18,55 @@
 <div class="registro">
 
     <h1>ANABEL RESIN CREATIONS</h1>
-
     <h2>Formulario de Pago</h2>
 
-<p id="total-pagar">Total a pagar: RD$0</p>
-
-<script>
-    const total = Number(localStorage.getItem("totalCompra"));
-
-    document.getElementById("total-pagar").textContent =
-        "Total a pagar: RD$" +
-        total.toLocaleString("es-DO");
-</script>
+    <p id="total-pagar">Total a pagar: RD$0</p>
 
     <div class="inputBox">
 
         <p>
-            <label>Nombre</label><br>
-            <input type="text" placeholder="Nombre">
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="nombre" placeholder="Nombre" required>
         </p>
 
         <p>
-            <label>Apellido</label><br>
-            <input type="text" placeholder="Apellido">
+            <label for="apellido">Apellido</label><br>
+            <input type="text" id="apellido" placeholder="Apellido" required>
         </p>
 
         <p>
-            <label>Correo</label><br>
-            <input type="email" placeholder="Alguien@email.com">
+            <label for="correo">Correo</label><br>
+            <input type="email" id="correo" placeholder="Alguien@email.com" required>
         </p>
 
         <p>
-            <label>Número</label><br>
-            <input type="text" placeholder="809 XXX XXXX">
+            <label for="numero">Número</label><br>
+            <input type="tel" id="numero" placeholder="809 XXX XXXX" required>
         </p>
 
         <p>
-            <label>Contraseña</label><br>
-            <input type="password" placeholder="Password">
+            <label for="contrasena">Contraseña</label><br>
+            <input type="password" id="contrasena" placeholder="Password">
         </p>
 
         <p>
-            <label>Recordar contraseña</label><br>
-            <input type="password" placeholder="Password">
+            <label for="recordar">Recordar contraseña</label><br>
+            <input type="password" id="recordar" placeholder="Password">
         </p>
 
         <p>
             <label for="Sexo">Elija el sexo</label><br>
-
             <select name="Sexo" id="Sexo">
-
                 <option value="">Elija el sexo</option>
                 <option value="Femenino">Femenino</option>
                 <option value="Masculino">Masculino</option>
                 <option value="No decirlo">Prefiero no decirlo</option>
-
             </select>
         </p>
 
         <p>
             <label for="Edad">Elija la edad</label><br>
-
             <select name="Edad" id="Edad">
-
                 <option value="">Elija la edad</option>
                 <option value="22">22</option>
                 <option value="23">23</option>
@@ -89,40 +74,43 @@
                 <option value="25">25</option>
                 <option value="26">26</option>
                 <option value="27">27</option>
-
             </select>
         </p>
 
         <p>
-            <label>Número de tarjeta</label><br>
-            <input type="text" placeholder="XXXX XXXX XXXX XXXX">
+            <label for="tarjeta">Número de tarjeta</label><br>
+            <input type="text" id="tarjeta"
+                   placeholder="XXXX XXXX XXXX XXXX">
         </p>
 
         <p>
-            <label>Fecha de vencimiento</label><br>
-            <input type="text" placeholder="MM/AA">
+            <label for="vencimiento">Fecha de vencimiento</label><br>
+            <input type="text" id="vencimiento" placeholder="MM/AA">
         </p>
 
         <p>
-            <label>CVV</label><br>
-            <input type="password" placeholder="CVV">
+            <label for="cvv">CVV</label><br>
+            <input type="password" id="cvv" placeholder="CVV">
         </p>
 
         <br>
 
-        <a href="Menu.html">
-            <button type="button" class="mi-boton1">
-                Pagar
-            </button>
-        </a>
+        <button type="button" class="mi-boton1"
+                onclick="alert('Formulario de demostración. No se ha realizado ningún cobro.')">
+            Pagar
+        </button>
 
-        <a href="Login.html">
+        <a href="login.html">
             <button type="button" class="mi-boton2">
                 Usuario
             </button>
         </a>
 
-
+        <a href="catalogo.html">
+            <button type="button" class="mi-boton2">
+                Volver al catálogo
+            </button>
+        </a>
 
     </div>
 
@@ -130,7 +118,21 @@
 
 </center>
 
+<script>
+    const totalGuardado = localStorage.getItem("totalCompra");
+    const total = Number(totalGuardado);
+
+    document.getElementById("total-pagar").textContent =
+        "Total a pagar: RD$" +
+        (
+            totalGuardado !== null &&
+            totalGuardado !== "" &&
+            Number.isFinite(total) &&
+            total >= 0
+                ? total.toLocaleString("es-DO")
+                : "0"
+        );
+</script>
+
 </body>
-
 </html>
-
